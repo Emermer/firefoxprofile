@@ -10,3 +10,5 @@ Universal Bypass - https://universal-bypass.org/
 Dark Reader - https://darkreader.org/
 
 Profile (mostly) made by Firefox Profilemaker - https://ffprofile.com/
+
+I also have a userchome.css, home page html file, as well as an autoconfig.cfg and autoconfig.js to use as extra settings for this profile, but they are not required. Those mentioned files are located here: https://github.com/Emermer/Mydotfiles/tree/main/firefox
