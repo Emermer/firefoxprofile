@@ -8,4 +8,4 @@ ClearURLS - https://github.com/ClearURLs
 Universal Bypass - https://universal-bypass.org/
 Dark Reader - https://darkreader.org/
 
-This profile was made from Firefox Profilemaker - https://ffprofile.com/
+Profile (mostly) made by Firefox Profilemaker - https://ffprofile.com/
