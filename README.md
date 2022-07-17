@@ -7,3 +7,5 @@ LocalCDN - https://www.localcdn.org/
 ClearURLS - https://github.com/ClearURLs
 Universal Bypass - https://universal-bypass.org/
 Dark Reader - https://darkreader.org/
+
+Profile (mostly) customized from Firefox Profilemaker - https://ffprofile.com/
