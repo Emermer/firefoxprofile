@@ -1,5 +1,5 @@
 # firefoxprofile
-Includes customized prefs.js + extensions. Links to extensions below.
+Includes customized user.js + extensions. Links to extensions below.
 
 NOTE: Upon loading the browser profile with these custom files, you may need to restart the browser for the settings to take full affect.
 
