@@ -55,7 +55,7 @@ user_pref("browser.sessionstore.privacy_level", 2);
 user_pref("browser.sessionstore.upgradeBackup.latestBuildID", "20220706125320");
 user_pref("browser.shell.mostRecentDateSetAsDefault", "1658459224");
 user_pref("browser.startup.couldRestoreSession.count", 2);
-user_pref("browser.startup.homepage", "file:///home/emermer/Documents/Configs/Firefox/homepagehtml/index.html");
+user_pref("browser.startup.homepage", "file:///home/emermer/.mozilla/firefox/index.html");
 user_pref("browser.startup.homepage_override.mstone", "ignore");
 user_pref("browser.startup.lastColdStartupCheck", 1658459225);
 user_pref("browser.tabs.crashReporting.sendReport", false);
