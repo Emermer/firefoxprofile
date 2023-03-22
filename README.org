@@ -6,11 +6,19 @@ Profile (mostly) made by [[https://ffprofile.com/][Firefox Profilemaker]]
 
 I also have a userchome.css, home page html file, as well as an autoconfig.cfg and autoconfig.js to use as extra settings for this profile, but they are not required. Those mentioned files are located [[https://github.com/Emermer/Mydotfiles/tree/main/firefox][here]].
 
-NOTE: Upon loading the browser profile with these custom files, you may need to restart the browser for the settings to take full affect.
-
 * Included Firefox Add-ons
 - [[https://ublockorigin.com/][Ublock Origin]]
 - [[https://www.localcdn.org/][LocalCDN]]
 - [[https://github.com/ClearURLs][ClearURLS]]
 - [[https://universal-bypass.org/][Universal Bypass]]
 - [[https://darkreader.org/][Dark Reader]]
+
+* HOW TO INSTALL
+1. type "about:profiles" (without the quotes) into the url bar in Firefox
+2. Click "Create a New Profile" and complete the "Create Profile Wizard." The name of the profile doesn't matter.
+3. Now that the new profile is made, you should see two directories. Click the "Open Directory" button next to "Root Directory."
+4. Delete all files out of the Root Directory. If you haven't done so already, download the contents of this repository onto your system and paste them into the Root Directory of the new profile you created.
+5. Go back into Firefox and click "Set as default profile" next to the profile you just created.
+6. Close Firefox, reopen it, then close it again, then reopen it again. This step ensures that the profile has loaded correctly.
+
+You're done. Enjoy!
