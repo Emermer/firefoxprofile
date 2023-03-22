@@ -9,8 +9,8 @@ I also have a userchome.css, home page html file, as well as an autoconfig.cfg a
 NOTE: Upon loading the browser profile with these custom files, you may need to restart the browser for the settings to take full affect.
 
 * Included Firefox Add-ons
-[[https://ublockorigin.com/][Ublock Origin]]
-[[https://www.localcdn.org/][LocalCDN]]
-[[https://github.com/ClearURLs][ClearURLS]]
-[[https://universal-bypass.org/][Universal Bypass]]
-[[https://darkreader.org/][Dark Reader]]
+- [[https://ublockorigin.com/][Ublock Origin]]
+- [[https://www.localcdn.org/][LocalCDN]]
+- [[https://github.com/ClearURLs][ClearURLS]]
+- [[https://universal-bypass.org/][Universal Bypass]]
+- [[https://darkreader.org/][Dark Reader]]
