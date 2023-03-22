@@ -7,7 +7,7 @@ Profile (mostly) made by [[https://ffprofile.com/][Firefox Profilemaker]]
 I also have a userchome.css, home page html file, as well as an autoconfig.cfg and autoconfig.js to use as extra settings for this profile, but they are not required. Those mentioned files are located [[https://github.com/Emermer/Mydotfiles/tree/main/firefox][here]].
 
 * Included Firefox Add-ons
-The following add-ons will be preinstalled upon correctly installing this profile:
+The following add-ons are preinstalled into this profile:
 - [[https://ublockorigin.com/][Ublock Origin]]
 - [[https://www.localcdn.org/][LocalCDN]]
 - [[https://github.com/ClearURLs][ClearURLS]]
