@@ -10,6 +10,7 @@ The following add-ons are preinstalled into this profile:
 - [[https://www.localcdn.org/][LocalCDN]]
 - [[https://github.com/ClearURLs][ClearURLS]]
 - [[https://universal-bypass.org/][Universal Bypass]]
+- [[https://libredirect.github.io//][LibRedirect]]
 - [[https://darkreader.org/][Dark Reader]]
 
 * HOW TO INSTALL
