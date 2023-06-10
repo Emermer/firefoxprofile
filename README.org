@@ -2,7 +2,7 @@
 #+AUTHOR: Emermer
 Profile (mostly) made by [[https://ffprofile.com/][Firefox Profilemaker]].
 
-I also have a userchome.css, home page html file, as well as an autoconfig.cfg and autoconfig.js to use as extra settings for this profile, but they are not required. Those mentioned files are located [[https://github.com/Emermer/Mydotfiles/tree/main/firefox][here]].
+I also have a userchome.css, home page html file, as well as an autoconfig.cfg and autoconfig.js that are used as extra settings for this profile. Those mentioned files are located [[https://github.com/Emermer/Mydotfiles/tree/main/firefox][here]].
 
 * Included Firefox Add-ons
 The following add-ons are preinstalled into this profile:
