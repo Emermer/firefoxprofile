@@ -16,7 +16,7 @@ The following search engines come out of the box:
 - [[https://wiki.archlinux.org/][ArchWiki]] @aw
 
 * HOW TO INSTALL
-1. type "about:profiles" (without the quotes) into the URL bar in Firefox.
+1. type "about:profiles" into the URL bar in Firefox.
 2. Click "Create a New Profile" and complete the "Create Profile Wizard." The name of the profile doesn't matter.
 3. Now that the new profile is made, you should see two directories. Click the "Open Directory" button next to "Root Directory."
 4. Delete all files out of the Root Directory. Download the contents of this repository onto your system and paste them into the Root Directory of the new profile you created.
