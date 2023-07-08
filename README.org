@@ -1,6 +1,6 @@
 #+TITLE: My Firefox Profile
 #+AUTHOR: Emermer
-The user-overrides.js file in this repo was made to go with [[https://github.com/arkenfox/user.js][arkenfox's user.js file]] and will not work without it. If you are not aware of how the arkenfox configuration works I'd HIGHLY recommend reading the [[https://github.com/arkenfox/user.js/wiki][documentation]] to build some understanding before using my user-overrides.js file.
+The user-overrides.js file in this repo was made to go with [[https://github.com/arkenfox/user.js][arkenfox's user.js file]] and will not work without it. If you are not aware of how the arkenfox configuration works I'd HIGHLY recommend reading the [[https://github.com/arkenfox/user.js/wiki][documentation]] to build some understanding before using my user-overrides.js file. This custom profile also contains files that allow a custom homepage without using any extensions! Instructions listed below.
 
 * Included Add-ons
 The following add-ons come out of the box:
@@ -15,12 +15,17 @@ The following search engines come out of the box:
 - [[https://www.youtube.com/][YouTube]] @vd
 - [[https://wiki.archlinux.org/][ArchWiki]] @aw
 
-* HOW TO INSTALL
+* PROFILE SETUP GUIDE
 1. type "about:profiles" into the URL bar in Firefox.
 2. Click "Create a New Profile" and complete the "Create Profile Wizard." The name of the profile doesn't matter.
 3. Now that the new profile is made, you should see two directories. Click the "Open Directory" button next to "Root Directory."
-4. Delete all files out of the Root Directory. Download the contents of this repository onto your system and paste them into the Root Directory of the new profile you created.
-5. Go back into Firefox and click "Set as default profile" next to the profile you just created.
-6. Close Firefox and reopen it TWICE!! This step ensures that the profile has loaded correctly.
+4. Delete all files out of the Root Directory. Download the contents of this repository onto your system, close Firefox, and paste the contents into the Root Directory of the new profile you created.
+5. Reopen Firefox and go back into "about:profiles." Click "Set as default profile" next to the profile you just created.
+6. Close Firefox and reopen it. You may want to do this step twice to ensure the profile has loaded correctly.
+
+Now that the profile is installed, It's time to get the custom html file loaded.
+
+* HOMEPAGE SETUP GUIDE
+1. 
 
 You're done. Enjoy!
