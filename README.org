@@ -1,6 +1,6 @@
 #+TITLE: My Firefox Profile
 #+AUTHOR: Emermer
-The user-overrides.js file in this repo was made to go with [[https://github.com/arkenfox/user.js][arkenfox's user.js file]] and will not work without it. If you are not aware of how the arkenfox configuration works I'd HIGHLY recommend reading the documentation to build some understanding before using my user-overrides.js file.
+The user-overrides.js file in this repo was made to go with [[https://github.com/arkenfox/user.js][arkenfox's user.js file]] and will not work without it. If you are not aware of how the arkenfox configuration works I'd HIGHLY recommend reading the [[https://github.com/arkenfox/user.js/wiki][documentation]] to build some understanding before using my user-overrides.js file.
 
 * Included Add-ons
 The following add-ons come out of the box:
