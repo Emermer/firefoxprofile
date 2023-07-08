@@ -1,24 +1,26 @@
 #+TITLE: My Firefox Profile
 #+AUTHOR: Emermer
-Profile (mostly) made by [[https://ffprofile.com/][Firefox Profilemaker]].
+The user-overrides.js file in this repo was made to go with [[https://github.com/arkenfox/user.js][arkenfox's user.js file]] and will not work without it. If you are not aware of how the arkenfox configuration works I'd HIGHLY recommend reading the documentation to build some understanding before using my user-overrides.js file.
 
-I also have a userchome.css, home page html file, as well as an autoconfig.cfg and autoconfig.js that are used as extra settings for this profile. Those mentioned files are located [[https://github.com/Emermer/Mydotfiles/tree/main/firefox][here]].
-
-* Included Firefox Add-ons
-The following add-ons are preinstalled into this profile:
+* Included Add-ons
+The following add-ons come out of the box:
 - [[https://ublockorigin.com/][Ublock Origin]]
-- [[https://www.localcdn.org/][LocalCDN]]
-- [[https://github.com/ClearURLs][ClearURLS]]
 - [[https://universal-bypass.org/][Universal Bypass]]
-- [[https://libredirect.github.io//][LibRedirect]]
 - [[https://darkreader.org/][Dark Reader]]
+- [[https://libredirect.github.io//][LibRedirect]]
+
+* Included Search Engines
+The following search engines come out of the box:
+- [[https://search.brave.com/][Brave @brave (Default)]]
+- [[https://www.youtube.com/][YouTube @vd]]
+- [[https://wiki.archlinux.org/][ArchWiki @aw]]
 
 * HOW TO INSTALL
 1. type "about:profiles" (without the quotes) into the URL bar in Firefox.
 2. Click "Create a New Profile" and complete the "Create Profile Wizard." The name of the profile doesn't matter.
 3. Now that the new profile is made, you should see two directories. Click the "Open Directory" button next to "Root Directory."
-4. Delete all files out of the Root Directory. If you haven't done so already, download the contents of this repository onto your system and paste them into the Root Directory of the new profile you created.
+4. Delete all files out of the Root Directory. Download the contents of this repository onto your system and paste them into the Root Directory of the new profile you created.
 5. Go back into Firefox and click "Set as default profile" next to the profile you just created.
-6. Close Firefox, reopen it, then close it again, then reopen it again. This step ensures that the profile has loaded correctly.
+6. Close Firefox and reopen it TWICE!! This step ensures that the profile has loaded correctly.
 
 You're done. Enjoy!
