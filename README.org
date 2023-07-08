@@ -11,9 +11,9 @@ The following add-ons come out of the box:
 
 * Included Search Engines
 The following search engines come out of the box:
-- [[https://search.brave.com/][Brave @brave (Default)]]
-- [[https://www.youtube.com/][YouTube @vd]]
-- [[https://wiki.archlinux.org/][ArchWiki @aw]]
+- [[https://search.brave.com/][Brave]] @brave (Default)
+- [[https://www.youtube.com/][YouTube]] @vd
+- [[https://wiki.archlinux.org/][ArchWiki]] @aw
 
 * HOW TO INSTALL
 1. type "about:profiles" (without the quotes) into the URL bar in Firefox.
