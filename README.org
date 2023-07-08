@@ -20,7 +20,7 @@ The following search engines come out of the box:
 2. Click "Create a New Profile" and complete the "Create Profile Wizard." The name of the profile doesn't matter.
 3. Now that the new profile is made, you should first click "Set as default profile" next to the profile you just created. 
 4. You should also see two directories. Click the "Open Directory" button next to "Root Directory."
-5. Download the contents of this repository, as well as the arkenfox "user.js" file and "update.sh" script onto your system. Close Firefox, delete all files out of the Root Directory, and paste the "user-overrides.js" file, "search.json.mozlz4" file, "extensions" folder, "chrome" folder, as well as the arkenfox "user.js" file and "update.sh" script into the Root Directory of the new profile you just created. 
+5. Download the contents of this repository, as well as the arkenfox "user.js" file and "update.sh" script onto your system. Delete all files out of the Root Directory and paste the "user-overrides.js" file, "search.json.mozlz4" file, "extensions" folder, "chrome" folder, as well as the arkenfox "user.js" file and "update.sh" script into the Root Directory of the new profile you just created. 
 
 Now that we've finished the majority of the setup process, you have the option to choose if you do or do not want a custom homepage to finish out the setup!
 
