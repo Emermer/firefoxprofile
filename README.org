@@ -37,7 +37,7 @@ For the people who followed step 6a, we have just a couple more steps we have to
 
 * HOMEPAGE SETUP GUIDE
 1. Use your text editor of choice to open the autoconfig.cfg file. You should be able to find a directory starting with the "file://" like we've seen before. All you'll need to do is change it to the location path of your "index.html" file as we've done before in step 6a.
-2. Move the "autoconfig.cfg" file into / /usr/lib/firefox/ and then move the "autoconfig.js" into / /usr/lib/firefox/defaults/pref/.
+2. Move the "autoconfig.cfg" file into /usr/lib/firefox/ and then move the "autoconfig.js" into /usr/lib/firefox/defaults/pref/.
 
 Now upon relaunching Firefox, you should be very welcomed to see your homepage being occupied by that sweet html file. 
 You're done. Enjoy!
