@@ -28,10 +28,10 @@ Now that we've finished the majority of the setup process, you have the option t
 
 6a. Put the "index.html" file into a safe place on your system. I put mine in the ~/.mozilla/firefox directory and I recommend you to do the same! Use your text editor of choice to open "user-overrides.js" and change the file directory on line 3 to fit your location path of the "index.html" file. Make sure that you keep the "file://" or else Firefox won't be able to read the directory!
 #+begin_src js
-// Custom Homepage w/o extensions
-user_pref("browser.startup.page", 1);
-user_pref("browser.startup.homepage", "file:///path/to/index.html");
-//
+1  // Custom Homepage w/o extensions
+2  user_pref("browser.startup.page", 1);
+3  user_pref("browser.startup.homepage", "file:///path/to/index.html");
+4  //
 ...
 #+end_src
 Save the changes and run the "update.sh" script so the "user-overrides.js" file can merge with and update the arkenfox "user.js" file if there are any new versions.
@@ -40,10 +40,10 @@ Save the changes and run the "update.sh" script so the "user-overrides.js" file 
 
 6b. Use your text editor of choice to open user-overrides.js and comment out lines 2 and 3.
 #+begin_src js
-// Custom Homepage w/o extensions
-// user_pref("browser.startup.page", 1);
-// user_pref("browser.startup.homepage", "file:///path/to/index.html");
-//
+1  // Custom Homepage w/o extensions
+2  // user_pref("browser.startup.page", 1);
+3  // user_pref("browser.startup.homepage", "file:///path/to/index.html");
+4  //
 ...
 #+end_src
 Save the changes and run the "update.sh" script so the "user-overrides.js" file can merge with and update the arkenfox "user.js" file if there are any new versions.
@@ -55,12 +55,12 @@ For the people who followed step 6a, we have just a couple more steps we have to
 * HOMEPAGE SETUP GUIDE
 1. Use your text editor of choice to open the autoconfig.cfg file. You should be able to find a file directory on line 7. All you'll need to do is change it to the location path of your "index.html" file as we've done before in step 6a.
 #+begin_src cfg
-/* set new tab page */
-try {
-  Cu.import("resource:///modules/AboutNewTab.jsm");
-  var newTabURL = "file:///path/to/index.html";
-  AboutNewTab.newTabURL = newTabURL;
-} catch(e){Cu.reportError(e);} // report errors in the Browser Console
+4  /* set new tab page */
+5  try {
+6    Cu.import("resource:///modules/AboutNewTab.jsm");
+7    var newTabURL = "file:///path/to/index.html";
+8    AboutNewTab.newTabURL = newTabURL;
+9  } catch(e){Cu.reportError(e);} // report errors in the Browser Console
 #+end_src
 2. Move the "autoconfig.cfg" file into /usr/lib/firefox/ and then move the "autoconfig.js" into /usr/lib/firefox/defaults/pref/.
 
