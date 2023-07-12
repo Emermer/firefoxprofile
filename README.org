@@ -49,6 +49,7 @@ Save the changes and run the "update.sh" script so the "user-overrides.js" file 
 Save the changes and run the "update.sh" script so the "user-overrides.js" file can merge with and update the arkenfox "user.js" file if there are any new versions.
 
 For the people who followed step 6b, then congrats, your profile is now installed! Enjoy it!!
+
 For the people who followed step 6a, we have just a couple more steps we have to do!
 
 * HOMEPAGE SETUP GUIDE
