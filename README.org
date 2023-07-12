@@ -26,11 +26,23 @@ Now that we've finished the majority of the setup process, you have the option t
 
 -- choosing this step means that you WANT a custom homepage via the provided "index.html" file or your own if you have one! --
 
-6a. Put the "index.html" file into a safe place on your system. I put mine in the .mozilla/firefox directory and I recommend you to do the same! Use your text editor of choice to open "user-overrides.js" and change the file directory on line 3 to fit your location path of the "index.html" file. Make sure that you keep the "file://" or else Firefox won't be able to read the directory! Save the changes and run the "update.sh" script so the "user-overrides.js" file can merge with the arkenfox "user.js" file and update the user.js if there are any new versions.
+6a. Put the "index.html" file into a safe place on your system. I put mine in the ~/.mozilla/firefox directory and I recommend you to do the same! Use your text editor of choice to open "user-overrides.js" and change the file directory on line 3 to fit your location path of the "index.html" file. Make sure that you keep the "file://" or else Firefox won't be able to read the directory! Save the changes and run the "update.sh" script so the "user-overrides.js" file can merge with the arkenfox "user.js" file and update the user.js if there are any new versions.
 
 -- SKIPPING STEP 6a REQUIRES AN ALTERNATE STEP - DO NOT DO THIS STEP IF YOU'VE DONE STEP 6a! --
 
-6b. Use your text editor of choice to open user-overrides.js and remove lines 1-4 or just comment out lines 2 and 3. Save the changes and run the "update.sh" script so the "user-overrides.js" file can merge with the arkenfox "user.js" file and update the user.js if there are any new versions.
+6b. Use your text editor of choice to open user-overrides.js and comment out lines 2 and 3.
+#+begin_src js
+// Custom Homepage w/o extensions
+// user_pref("browser.startup.page", 1);
+// user_pref("browser.startup.homepage", "file:///home/emermer/.mozilla/firefox/index.html");
+//
+user_pref("general.autoScroll", true);
+user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
+user_pref("ui.key.menuAccessKeyFocuses", false);
+...
+#+end_src
+
+Save the changes and run the "update.sh" script so the "user-overrides.js" file can merge with the arkenfox "user.js" file and update the user.js if there are any new versions.
 
 For the people who followed step 6b, then congrats, your profile is now installed! Enjoy it!!
 For the people who followed step 6a, we have just a couple more steps we have to do!
