@@ -34,7 +34,7 @@ user_pref("browser.startup.homepage", "file:///path/to/index.html");
 //
 ...
 #+end_src
-Save the changes and run the "update.sh" script so the "user-overrides.js" file can merge with the arkenfox "user.js" file and update the user.js if there are any new versions.
+Save the changes and run the "update.sh" script so the "user-overrides.js" file can merge with and update the arkenfox "user.js" file if there are any new versions.
 
 -- SKIPPING STEP 6a REQUIRES AN ALTERNATE STEP - DO NOT DO THIS STEP IF YOU'VE DONE STEP 6a! --
 
