@@ -61,7 +61,6 @@ try {
   var newTabURL = "file:///path/to/index.html";
   AboutNewTab.newTabURL = newTabURL;
 } catch(e){Cu.reportError(e);} // report errors in the Browser Console
-...
 #+end_src
 2. Move the "autoconfig.cfg" file into /usr/lib/firefox/ and then move the "autoconfig.js" into /usr/lib/firefox/defaults/pref/.
 
