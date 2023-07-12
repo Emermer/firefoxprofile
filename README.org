@@ -48,8 +48,9 @@ Save the changes and run the "update.sh" script so the "user-overrides.js" file 
 #+end_src
 Save the changes and run the "update.sh" script so the "user-overrides.js" file can merge with and update the arkenfox "user.js" file if there are any new versions.
 
-For the people who followed step 6b, then congrats, your profile is now installed! Enjoy it!!
-For the people who followed step 6a, we have just a couple more steps we have to do!
+**For the people who followed step 6b, then congrats, your profile is now installed! Enjoy it!!
+
+**For the people who followed step 6a, we have just a couple more steps we have to do!
 
 * HOMEPAGE SETUP GUIDE
 1. Use your text editor of choice to open the autoconfig.cfg file. You should be able to find a directory starting with the "file://" like we've seen before. All you'll need to do is change it to the location path of your "index.html" file as we've done before in step 6a.
