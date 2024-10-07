@@ -1,10 +1,11 @@
+// Custom Homepage w/o extensions
 user_pref("browser.startup.page", 1);
 user_pref("browser.startup.homepage", "file:///home/emermer/.mozilla/firefox/index.html");
+//
 user_pref("general.autoScroll", true);
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 user_pref("ui.key.menuAccessKeyFocuses", false);
 user_pref("browser.tabs.firefox-view", false);
-user_pref("browser.uiCustomization.state", "{\"placements\":{\"widget-overflow-fixed-list\":[\"ublock0_raymondhill_net-browser-action\",\"_b86e4813-687a-43e6-ab65-0bde4ab75758_-browser-action\",\"_74145f27-f039-47ce-a470-a662b129930a_-browser-action\",\"_529b261b-df0b-4e3b-bf42-07b462da0ee8_-browser-action\",\"addon_darkreader_org-browser-action\"],\"nav-bar\":[\"back-button\",\"forward-button\",\"downloads-button\",\"urlbar-container\",\"save-to-pocket-button\",\"jid1-zadieub7xozojw_jetpack-browser-action\"],\"toolbar-menubar\":[\"menubar-items\"],\"TabsToolbar\":[\"tabbrowser-tabs\",\"new-tab-button\",\"alltabs-button\"],\"PersonalToolbar\":[]},\"seen\":[\"_74145f27-f039-47ce-a470-a662b129930a_-browser-action\",\"ublock0_raymondhill_net-browser-action\",\"developer-button\",\"_b86e4813-687a-43e6-ab65-0bde4ab75758_-browser-action\",\"addon_darkreader_org-browser-action\",\"_529b261b-df0b-4e3b-bf42-07b462da0ee8_-browser-action\",\"jid1-zadieub7xozojw_jetpack-browser-action\"],\"dirtyAreaCache\":[\"nav-bar\",\"PersonalToolbar\",\"widget-overflow-fixed-list\",\"toolbar-menubar\",\"TabsToolbar\"],\"currentVersion\":17,\"newElementCount\":11}");
 user_pref("browser.newtabpage.activity-stream.section.highlights.includePocket", false);
 user_pref("browser.compactmode.show", true);
 user_pref("browser.toolbars.bookmarks.visibility", "never");
@@ -26,9 +27,18 @@ user_pref("extensions.webextensions.ExtensionStorageIDB.migrated.7esoorv3@alefva
 user_pref("extensions.webextensions.ExtensionStorageIDB.migrated.addon@darkreader.org", true);
 user_pref("extensions.webextensions.ExtensionStorageIDB.migrated.screenshots@mozilla.org", true);
 user_pref("extensions.webextensions.ExtensionStorageIDB.migrated.uBlock0@raymondhill.net", true);
-user_pref("extensions.webextensions.ExtensionStorageIDB.migrated.{529b261b-df0b-4e3b-bf42-07b462da0ee8}", true);
-user_pref("extensions.webextensions.uuids", "{\"addon@darkreader.org\":\"886f6d62-6dcb-4689-b033-162a8842031f\",\"7esoorv3@alefvanoon.anonaddy.me\":\"416937ed-369a-4505-be1d-790e858a7188\",\"uBlock0@raymondhill.net\":\"6ccd7427-d7f2-4394-84bf-744e8ec49d4f\",\"formautofill@mozilla.org\":\"74960f44-b14e-4b0c-b26e-94fdaaf64ead\",\"pictureinpicture@mozilla.org\":\"e34d247a-1721-4211-9319-ad5eb689abb7\",\"screenshots@mozilla.org\":\"8102ac6c-41d6-433a-b062-edc6c47e67d1\",\"webcompat-reporter@mozilla.org\":\"a0bae71e-f70b-4e64-a16c-0a0e6654b9f1\",\"webcompat@mozilla.org\":\"6268e74f-3e5a-469f-8d98-7d6407906520\",\"default-theme@mozilla.org\":\"bb737f68-3551-41f6-8bf4-48c58fd8632c\",\"addons-search-detection@mozilla.com\":\"c86d3068-c943-47f9-91b9-3bb051ba9f0d\",\"google@search.mozilla.org\":\"b7932750-c84c-439e-86e5-6aa2a36aaa7d\",\"amazondotcom@search.mozilla.org\":\"8212b2f6-f855-44b8-bf4d-bb788d6f664b\",\"wikipedia@search.mozilla.org\":\"30696315-1db0-434a-9ccb-102ff0b58241\",\"bing@search.mozilla.org\":\"65d36147-b145-45be-80af-58460bb8b38a\",\"ddg@search.mozilla.org\":\"a0509b6a-a2a8-4bf2-b480-180d3d46436c\",\"{529b261b-df0b-4e3b-bf42-07b462da0ee8}\":\"a5cf6010-23dc-4971-bb16-ca0e7bd63d26\",\"ebay@search.mozilla.org\":\"922abba2-6a0e-4057-a88b-787df2872640\"}");
+user_pref("extensions.webextensions.ExtensionStorageIDB.migrated.addon@fastforward.team", true);
 user_pref("extensions.activeThemeID", "default-theme@mozilla.org");
 user_pref("media.videocontrols.picture-in-picture.video-toggle.has-used", true);
 user_pref("signon.rememberSignons", false);
 user_pref("extensions.webextensions.restrictedDomains", " ");
+user_pref("browser.urlbar.suggest.bookmark", false);
+user_pref("browser.urlbar.suggest.engines", false);
+user_pref("browser.urlbar.suggest.openpage", false);
+user_pref("browser.urlbar.suggest.topsites", false);
+user_pref("browser.urlbar.suggest.history", false);
+user_pref("extensions.autoDisableScopes", 14);
+user_pref("privacy.resistFingerprinting.letterboxing", false);
+user_pref("browser.tabs.firefox-view-next", false);
+user_pref("browser.tabs.firefox-view-newIcon", false);
+//user_pref("privacy.clearOnShutdown.cookies", false);
